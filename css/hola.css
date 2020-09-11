@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 800px;
+    background: url("../img/foto2.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+}
+#menuh{
+text-align: right;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#menuh li{
+display: inline-block;
+margin: 0px 10px 0px 10px;
+padding: 30px 10px 21px 10px;
+color: firebrick;
+}
+#menuh li:hover{
+    background-color: chartreuse;
+    color: white;
+
+}
+#logo, #menuh{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
